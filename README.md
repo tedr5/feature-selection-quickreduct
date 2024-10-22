@@ -1,24 +1,25 @@
-# Feature Selection with QuickReduct
 
-## Description du projet
-Ce projet vise à sélectionner les attributs les plus importants dans un jeu de données. Une bonne sélection peut améliorer les performances des modèles d'apprentissage automatique en éliminant les informations inutiles.
+We primarily use the QuickReduct algorithm, which is based on rough set theory. This algorithm identifies relevant features without requiring additional information about the data.
 
-Nous utilisons principalement l'algorithme **QuickReduct**, qui repose sur la **théorie des rough sets**. Cet algorithme identifie les caractéristiques pertinentes sans avoir besoin d'informations supplémentaires sur les données.
+## How It Works
 
-### Comment ça marche
-1. **Rough Sets** : Cette méthode regroupe les objets similaires en fonction de leurs attributs et permet de déterminer lesquels sont vraiment importants.
-2. **QuickReduct** : Cet algorithme analyse les attributs et sélectionne ceux qui maintiennent la même capacité de prédiction que l'ensemble initial.
-3. **Tests et Visualisation** : Nous appliquons ces algorithmes sur des jeux de données du site UCI Machine Learning et montrons les résultats sous forme de graphiques 📊.
+- **Rough Sets**: This method groups similar objects based on their attributes and determines which ones are truly important.
+- **QuickReduct**: This algorithm analyzes the attributes and selects those that maintain the same predictive capacity as the initial set.
+- **Testing and Visualization**: We apply these algorithms to datasets from the UCI Machine Learning repository and present the results in the form of graphs 📊.
 
-### Pourquoi c'est important
-La sélection des attributs permet de simplifier les modèles et d'améliorer leur précision, ce qui est crucial dans divers domaines comme la finance, la santé et le marketing.
+## Why It’s Important
+
+Attribute selection helps simplify models and improve their accuracy, which is crucial in various fields such as finance, healthcare, and marketing.
 
 ## Installation
-Pour exécuter ce projet, vous aurez besoin de :
+
+To run this project, you will need:
+
 - Python 3.11.1
 - Jupyter Lab 3.5.3
 
-Assurez-vous d'installer les bibliothèques suivantes :
+Make sure to install the following libraries:
+```bash
 - numpy
 - pandas
 - matplotlib
