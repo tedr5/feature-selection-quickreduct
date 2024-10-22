@@ -20,9 +20,4 @@ Attribute selection helps simplify models and improve their accuracy, which is c
 
 To run this project, you will need:
 ```bash
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- fuzzy-rough-learn
+pip install numpy pandas matplotlib seaborn scikit-learn fuzzy-rough-learn
