@@ -1,3 +1,8 @@
+# Feature Selection with QuickReduct
+
+## Project Description
+
+This project aims to select the most important attributes in a dataset. Effective selection can enhance the performance of machine learning models by eliminating unnecessary information.
 
 We primarily use the QuickReduct algorithm, which is based on rough set theory. This algorithm identifies relevant features without requiring additional information about the data.
 
@@ -14,11 +19,6 @@ Attribute selection helps simplify models and improve their accuracy, which is c
 ## Installation
 
 To run this project, you will need:
-
-- Python 3.11.1
-- Jupyter Lab 3.5.3
-
-Make sure to install the following libraries:
 ```bash
 - numpy
 - pandas
